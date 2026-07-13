@@ -61,6 +61,32 @@ def _normalise(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").lower())
 
 
+# "Classic" / "Café Classic" are Mk1-only names; used by the pre-screen below.
+RE_CLASSIC = re.compile(r"\bclassic\b|caf[eé]", re.I)
+
+
+def is_probably_other_model(title: str) -> bool:
+    """
+    Cheap **title-only** pre-screen to decide whether a listing is worth spending
+    a (rate-limited, credit-costing) detail-page fetch on.
+
+    Deliberately CONSERVATIVE: it only returns ``True`` for *definite* other-
+    generation markers (V7 850/853, V7 III, V7 IV, Classic/Café). Anything that
+    could plausibly be a V7 II — e.g. an unlabelled "V7 Stone", "V7 Special" or
+    "V7 Racer" — returns ``False`` so it still gets fetched and judged on its
+    year/power. An explicit "V7 II" in the title always wins.
+    """
+    blob = _normalise(title)
+    if RE_V7_II.search(blob):
+        return False
+    return bool(
+        RE_V7_850.search(blob)
+        or RE_850CC.search(blob)
+        or RE_V7_III.search(blob)
+        or RE_CLASSIC.search(blob)
+    )
+
+
 def classify(listing: Listing) -> Classification:
     """
     Inspect a listing and return a :class:`Classification`.

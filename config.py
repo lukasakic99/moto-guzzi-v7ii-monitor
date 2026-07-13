@@ -77,25 +77,38 @@ FETCH_DETAIL_PAGES = True
 # re-fetched — so in steady state a run makes only a handful of requests.
 #
 # These defaults are tuned to stay inside the ScraperAPI FREE tier
-# (~1,000 requests/month). Rough budget: 2 runs/day x 30 days = 60 runs;
-# each run ≈ (MAX_SEARCH_PAGES + a few new detail pages) x 2 sites. If you move
-# to a paid plan you can safely raise MAX_SEARCH_PAGES to 3-5 and
-# MAX_DETAIL_FETCHES_PER_SITE to 40+ for wider coverage.
-MAX_DETAIL_FETCHES_PER_SITE = 15
+# (~1,000 requests/month). A cheap title-only pre-screen (see classifier's
+# is_probably_other_model) means we only ever spend a detail fetch on a listing
+# that could *plausibly* be a V7 II — obvious other models (V7 850, V7 III,
+# Classic, ...) are judged from the title alone and never fetched. So this cap
+# stretches much further than it looks. In steady state only genuinely new
+# listings are fetched. On a paid plan you can raise these for wider coverage.
+MAX_DETAIL_FETCHES_PER_SITE = 25
 REQUEST_DELAY_SECONDS = 2.0            # base delay between requests
 REQUEST_JITTER_SECONDS = 1.5          # random extra delay (0..this) per request
 
 # How many search result pages to walk per site (each page ≈ 25 listings).
 MAX_SEARCH_PAGES = 2
 
-# Retry / timeout behaviour for every HTTP request.
-REQUEST_TIMEOUT = 30
+# Retry / timeout behaviour for every HTTP request. ScraperAPI can take a while
+# on heavy sites, so give it generous time before giving up.
+REQUEST_TIMEOUT = 60
 MAX_RETRIES = 3
 RETRY_BACKOFF_SECONDS = 4.0           # exponential: 4, 8, 16 ...
 
 # Enable/disable individual sites without touching code elsewhere.
 ENABLE_KLEINANZEIGEN = True
 ENABLE_MOBILE_DE = True
+
+# mobile.de is far more aggressively bot-protected than Kleinanzeigen and on the
+# ScraperAPI FREE tier it typically fails (HTTP 500 / timeout) — getting through
+# generally requires ScraperAPI's paid features. If you upgrade, enable them
+# here. These params are sent ONLY for mobile.de requests, so they never burn
+# extra credits on Kleinanzeigen. Examples you can try once on a paid plan:
+#   {"render": "true"}         -> run the page's JavaScript (~10+ credits each)
+#   {"ultra_premium": "true"}  -> hardest anti-bot bypass (more credits)
+# Leave as {} to send mobile.de the same way as Kleinanzeigen.
+MOBILE_DE_SCRAPER_PARAMS: dict = {}
 
 # --------------------------------------------------------------------------- #
 # Optional proxy / scraping service (driven by env vars — never hard-coded)

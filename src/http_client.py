@@ -60,8 +60,14 @@ class HttpClient:
     # ------------------------------------------------------------------ #
     # Request routing (direct / ScraperAPI / generic proxy)
     # ------------------------------------------------------------------ #
-    def _prepare(self, url: str) -> tuple[str, dict | None]:
-        """Return the (possibly rewritten) request URL and requests-proxies."""
+    def _prepare(
+        self, url: str, scraper_params: dict | None = None
+    ) -> tuple[str, dict | None]:
+        """Return the (possibly rewritten) request URL and requests-proxies.
+
+        ``scraper_params`` are extra ScraperAPI options (e.g. ``render``,
+        ``ultra_premium``) applied only to this request — used by mobile.de.
+        """
         if self.mode == "scraperapi":
             params = {
                 "api_key": config.SCRAPER_API_KEY,
@@ -70,6 +76,8 @@ class HttpClient:
                 # keep_headers lets ScraperAPI forward our language/UA hints
                 "keep_headers": "true",
             }
+            if scraper_params:
+                params.update(scraper_params)
             return f"{config.SCRAPER_API_ENDPOINT}?{urlencode(params)}", None
         if self.mode == "proxy":
             return url, {"http": config.PROXY_URL, "https": config.PROXY_URL}
@@ -78,12 +86,20 @@ class HttpClient:
     # ------------------------------------------------------------------ #
     # Public API
     # ------------------------------------------------------------------ #
-    def get(self, url: str, referer: str | None = None) -> str | None:
+    def get(
+        self,
+        url: str,
+        referer: str | None = None,
+        scraper_params: dict | None = None,
+    ) -> str | None:
         """
         Fetch ``url`` and return the response body as text, or ``None`` on
         failure after all retries are exhausted.
+
+        ``scraper_params`` passes per-request ScraperAPI options (see
+        :meth:`_prepare`).
         """
-        request_url, proxies = self._prepare(url)
+        request_url, proxies = self._prepare(url, scraper_params)
 
         for attempt in range(1, config.MAX_RETRIES + 1):
             try:

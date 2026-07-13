@@ -20,6 +20,7 @@ from abc import ABC, abstractmethod
 from collections.abc import Iterable
 
 import config
+from ..classifier import is_probably_other_model
 from ..http_client import HttpClient
 from ..models import Listing
 
@@ -75,10 +76,16 @@ class BaseScraper(ABC):
         except Exception as exc:  # noqa: BLE001 — never let one site crash the run
             log.exception("%s: search phase failed: %s", self.name, exc)
 
-        # Enrich only new listings, up to the per-site cap.
+        # Enrich only new, plausibly-relevant listings, up to the per-site cap.
+        skipped_obvious = 0
         if config.FETCH_DETAIL_PAGES:
             for listing in collected.values():
                 if listing.id in known_ids:
+                    continue
+                # Save the fetch budget: don't fetch a detail page for a listing
+                # whose title already proves it is a different model.
+                if is_probably_other_model(listing.title):
+                    skipped_obvious += 1
                     continue
                 if detail_fetches >= config.MAX_DETAIL_FETCHES_PER_SITE:
                     log.info("%s: hit detail-fetch cap (%d).",
@@ -92,6 +99,7 @@ class BaseScraper(ABC):
                                 self.name, listing.url, exc)
                 detail_fetches += 1
 
-        log.info("%s: collected %d listings (%d detail pages fetched).",
-                 self.name, len(collected), detail_fetches)
+        log.info("%s: collected %d listings (%d detail pages fetched, "
+                 "%d skipped as obvious non-matches).",
+                 self.name, len(collected), detail_fetches, skipped_obvious)
         return list(collected.values())

@@ -70,7 +70,8 @@ class MobileDeScraper(BaseScraper):
         for page in range(1, config.MAX_SEARCH_PAGES + 1):
             url = self._page_url(page)
             log.info("Fetching search page %d: %s", page, url)
-            html = self.http.get(url, referer=referer)
+            html = self.http.get(url, referer=referer,
+                                  scraper_params=config.MOBILE_DE_SCRAPER_PARAMS or None)
             referer = url
             if not html:
                 break
@@ -153,7 +154,8 @@ class MobileDeScraper(BaseScraper):
     # Detail-page enrichment
     # ------------------------------------------------------------------ #
     def enrich(self, listing: Listing) -> None:
-        html = self.http.get(listing.url, referer="https://www.mobile.de/")
+        html = self.http.get(listing.url, referer="https://www.mobile.de/",
+                             scraper_params=config.MOBILE_DE_SCRAPER_PARAMS or None)
         if not html:
             return
         soup = BeautifulSoup(html, "lxml")
