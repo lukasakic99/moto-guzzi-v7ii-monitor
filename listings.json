@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "kleinanzeigen:3457528784",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-2-stone-top-zustand/3457528784-305-5208",
+    "title": "Moto Guzzi v7 ii 2 Stone Top Zustand",
+    "price_eur": 5650,
+    "price_raw": "5.650 €",
+    "mileage_km": 14300,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": 48,
+    "location": "76764 Rheinzabern",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/64/64e0be60-1d3a-41ea-b4c2-a5d66f8e2ff0?rule=$_2.AUTO",
+    "description": "Sehr gepflegte Moto Guzzi V7 2 Stone in Moosgrün, quasi wie neu.\nABS, 6 Gang,\nV-Trec Brems- u.... Sehr gepflegte Moto Guzzi V7 2 Stone in Moosgrün, quasi wie neu. ABS, 6 Gang, V-Trec Brems- u. Kupplungshebel verstellbar, Mistral Auspuffanlage mit super dumpfen Sound, legal mit ABE bzw e Nr., Batterie Trennschalter und Zigarettenanzünder Steckdose zum Batterie Laden/ Überwintern. Seitenständer und Hauptständer (sehr praktisch für Inspektion oder Reifenwechsel), Reifen fast neu (500 km). 2. Hand",
+    "date_found": "2026-07-13T12:34:21+00:00",
+    "last_seen": "2026-07-13T12:34:21+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2016 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2).",
+        "6-speed gearbox — introduced on the V7 II (Mk1 had 5).",
+        "ABS / traction control fitted (standard from the V7 II)."
+      ]
+    }
+  },
+  {
+    "id": "kleinanzeigen:3448369187",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-stone-a2-tauglich-/3448369187-305-7982",
+    "title": "Moto Guzzi V7 II Stone (A2 tauglich)",
+    "price_eur": 4150,
+    "price_raw": "4.150 € VB",
+    "mileage_km": 14250,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": 49,
+    "location": "68163 Mannheim",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac7aabb4-2625-4e7f-aaf3-9e2df478b3b3?rule=$_2.AUTO",
+    "description": "Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage,... Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage, umstaendehalber wegen Krankheit abzugeben Probefahrt unter Vorlage FS selbstverständlich möglich , TÜV neu bei Verkauf. Wenn gewünscht",
+    "date_found": "2026-07-13T12:34:21+00:00",
+    "last_seen": "2026-07-13T12:34:21+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era.",
+        "49 PS matches the V7 II (48 PS, or 34 PS A2)."
+      ]
+    }
+  }
+]
