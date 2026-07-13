@@ -1,0 +1,8 @@
+# HTTP + HTML parsing stack for the scraper.
+requests>=2.31,<3.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.1,<6.0
+
+# Timezone database so the dashboard's "last updated" stamp renders in
+# Europe/Berlin even on slim CI images that lack the system tz data.
+tzdata>=2024.1
