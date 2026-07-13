@@ -1,0 +1,92 @@
+name: Scrape & Deploy Dashboard
+
+# ---------------------------------------------------------------------------
+# Runs the scraper twice a day, commits the updated database + dashboard back
+# to the repository, and publishes index.html to GitHub Pages.
+# ---------------------------------------------------------------------------
+
+on:
+  # Manual "Run workflow" button in the Actions tab.
+  workflow_dispatch:
+
+  schedule:
+    # NOTE: GitHub Actions cron is always in UTC. These two runs correspond to
+    # roughly 08:00 and 20:00 in Germany during summer (CEST, UTC+2); in winter
+    # (CET, UTC+1) they land at 07:00 and 19:00. Adjust if you need exact local
+    # times year-round.
+    - cron: "0 6 * * *"    # 06:00 UTC  -> ~08:00 Berlin (summer)
+    - cron: "0 18 * * *"   # 18:00 UTC  -> ~20:00 Berlin (summer)
+
+# The GITHUB_TOKEN needs to push commits (contents) and publish Pages.
+permissions:
+  contents: write        # push updated listings.json / index.html
+  pages: write           # deploy to GitHub Pages
+  id-token: write        # required by actions/deploy-pages (OIDC)
+
+# Never run two deploys at once; let a newer run supersede an in-progress one.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    # Bind this job to the github-pages environment so deploy-pages can publish.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper (updates listings.json + index.html)
+        env:
+          # Optional. Set this repository secret to route requests through a
+          # German proxy exit IP (recommended — GitHub runner IPs are often
+          # blocked). Leave it unset to scrape directly.
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: python scraper.py --verbose
+
+      - name: Commit updated data & dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add listings.json index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update listings & dashboard [skip ci]"
+            git push
+          fi
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          # Publish the raw data too, so it can be inspected/consumed if desired.
+          cp listings.json _site/listings.json
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

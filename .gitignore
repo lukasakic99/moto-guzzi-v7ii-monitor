@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.tmp
+
+# NOTE: listings.json and index.html are intentionally NOT ignored — they are
+# the app's persisted database and generated dashboard, and the GitHub Actions
+# workflow commits them back to the repository on every run.
