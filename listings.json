@@ -1,5 +1,59 @@
 [
   {
+    "id": "kleinanzeigen:3459972757",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/guzzi-v7-racer-abs/3459972757-305-5097",
+    "title": "Guzzi v7 Racer abs",
+    "price_eur": null,
+    "price_raw": "VB",
+    "mileage_km": 44444,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": 48,
+    "location": "67823 Unkenbach",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4afb24a7-4b35-4cc9-9007-5291a394e704?rule=$_2.AUTO",
+    "description": "Gude überlege meine guzzi zu verkaufen .\nEs Gibt noch eine Zweisitzer bank.\nEs gibt 4 verschiedene... Gude überlege meine guzzi zu verkaufen . Es Gibt noch eine Zweisitzer bank. Es gibt 4 verschiedene auspuff Varianten, original / Arrow ( aktuell montiert) / mistral ohne kat besteht aber die AU leider rechts verkratzt müßte lackiert werden / original verpackt eine Mass Anlage mit ABE also kat und db . Auf wünsch kann jede beliebige auspuff Anlage montiert werden für die Mass Anlage werden aber 1000€ zusätzlich fällig. Händyhalter, griffheizung sind auch montiert. Ich hätte noch einen sportluftfilter original verpackt und die seltenen ansaugtrichter .Service wurde auch regelmäßig gemacht. Auf Wunsch gibt's neuen TÜV. Probefahrt jederzeit möglich und kann angemeldet übergeben werden bei Kaufvertrag Unterzeichnung. Bei Fragen fragen",
+    "date_found": "2026-07-15T21:35:24+00:00",
+    "last_seen": "2026-07-15T21:35:24+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.58,
+      "category": "likely",
+      "reasons": [
+        "No explicit 'II' — judging by year, power and equipment.",
+        "First registration 2016 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2).",
+        "ABS / traction control fitted (standard from the V7 II)."
+      ]
+    }
+  },
+  {
+    "id": "kleinanzeigen:3459749048",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-spezial/3459749048-305-16482",
+    "title": "Moto Guzzi v7 Spezial",
+    "price_eur": 4900,
+    "price_raw": "4.900 € VB",
+    "mileage_km": null,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": null,
+    "location": "20357 Hamburg St. Pauli",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8a2b8fe-9f33-4ac4-a6c1-a7cae82e5d5c?rule=$_2.AUTO",
+    "description": "Oder tauschen gegen BSA Oder tauschen gegen BSA",
+    "date_found": "2026-07-15T21:35:24+00:00",
+    "last_seen": "2026-07-15T21:35:24+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.35,
+      "category": "uncertain",
+      "reasons": [
+        "No explicit 'II' — judging by year, power and equipment.",
+        "First registration 2016 is squarely V7 II era."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3436212636",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/motoguzzi-v7-stone-ii-2015-10-465-km/3436212636-305-6528",
@@ -69,7 +123,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/51/51174a6e-0f0e-4799-9922-a8a0d4806476?rule=$_2.AUTO",
     "description": "Garagen - / Saison-Fahrzeug, Werkstattgepflegt\nKomfortsitzbank / Original ist... Garagen - / Saison-Fahrzeug, Werkstattgepflegt Komfortsitzbank / Original ist vorhanden Scheibe verstellbare Brems-/Kupplungshebel / Original ist vorhanden Kofferhalterung / 2 Hepko-Koffer Tankrucksack Navi TomTom Raider mit Halterung montiert - Anschluss an Zündung",
     "date_found": "2026-07-14T21:35:18+00:00",
-    "last_seen": "2026-07-15T11:21:48+00:00",
+    "last_seen": "2026-07-15T21:35:24+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
@@ -125,7 +179,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac7aabb4-2625-4e7f-aaf3-9e2df478b3b3?rule=$_2.AUTO",
     "description": "Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage,... Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage, umstaendehalber wegen Krankheit abzugeben Probefahrt unter Vorlage FS selbstverständlich möglich , TÜV neu bei Verkauf. Wenn gewünscht",
     "date_found": "2026-07-13T12:34:21+00:00",
-    "last_seen": "2026-07-15T11:21:48+00:00",
+    "last_seen": "2026-07-15T21:35:24+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
