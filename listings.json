@@ -1,5 +1,60 @@
 [
   {
+    "id": "kleinanzeigen:3436212636",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/motoguzzi-v7-stone-ii-2015-10-465-km/3436212636-305-6528",
+    "title": "Motoguzzi V7 Stone II (2015) 10.465 km",
+    "price_eur": 4999,
+    "price_raw": "4.999 € VB",
+    "mileage_km": 10465,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": 48,
+    "location": "81925 Bogenhausen",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b4d667a-ad87-4c05-a249-f6979aab9a9b?rule=$_2.AUTO",
+    "description": "Ich biete hier meine gepflegte Moto Guzzi V7 II Stone zum Verkauf an. Dieses Motorrad ist ein... Ich biete hier meine gepflegte Moto Guzzi V7 II Stone zum Verkauf an. Dieses Motorrad ist ein echter Hingucker mit seinem klassischen Design und der mattschwarzen Lackierung. * Robuster 750ccm V2-Motor * regelmäßige Inspektionen und Inspektion frisch durchgeführt * überwintert in Garage * Bequemer Sitz für entspannte Fahrten * Chrom-Auspuffanlage für den klassischen Look - Hitzeisolierband kann abgenommen werden. * Scheibenbremsen vorne und hinten für Sicherheit * Markante Speichenräder in Schwarz * ABS Die Moto Guzzi fährt sich wunderbar und ist perfekt für Liebhaber des italienischen Motorradbaus. Sie hat normale Gebrauchsspuren, ist aber technisch einwandfrei und wurde stets gut gewartet. Schreib mir einfach, wenn du Fragen hast.",
+    "date_found": "2026-07-15T20:49:32+00:00",
+    "last_seen": "2026-07-15T20:49:32+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2).",
+        "Displacement (744/750 cc) consistent with the V7 II.",
+        "ABS / traction control fitted (standard from the V7 II)."
+      ]
+    }
+  },
+  {
+    "id": "kleinanzeigen:3387770347",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/motoguzzi-v7-ii-caferacer-unterzuege/3387770347-305-14101",
+    "title": "Motoguzzi V7 II CafeRacer Unterzüge",
+    "price_eur": null,
+    "price_raw": "24 € VB",
+    "mileage_km": null,
+    "first_registration": "",
+    "year": null,
+    "power_ps": null,
+    "location": "21244 Buchholz in der Nordheide",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c471160e-f35a-4b3b-a51b-5e6867708e6f?rule=$_2.AUTO",
+    "description": "Diese Unterzüge hatte ich an einer V7 II von 2015.\nDa war eine 2 in 1 hochgelegte Auspuffanlage... Diese Unterzüge hatte ich an einer V7 II von 2015. Da war eine 2 in 1 hochgelegte Auspuffanlage dran. Die ist dann unten ein bisschen Nackt. Da kann man dann schön die Schriftzüge sehen. Ein besseres Bild mit Motorrad hab ich leider nicht. Alle Teile sind aus Eisen und entsprechend schwer. Bezahlen bitte mit Paypal Versand 7.50€ mit der Post.",
+    "date_found": "2026-07-15T20:49:32+00:00",
+    "last_seen": "2026-07-15T20:49:32+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.55,
+      "category": "likely",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First-registration year unknown."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3458919384",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-spezial/3458919384-305-4685",
