@@ -1,5 +1,32 @@
 [
   {
+    "id": "kleinanzeigen:3460952043",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-stone-13331km-baujahr-2015-tuev-bis-06-2027/3460952043-305-9281",
+    "title": "Moto Guzzi V7 II Stone 13331KM Baujahr 2015 TÜV bis 06/2027",
+    "price_eur": 2799,
+    "price_raw": "2.799 € VB",
+    "mileage_km": 13331,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": 48,
+    "location": "70180 Stuttgart-​Süd",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/64/647fabf6-a786-402e-978e-18cb35d0f1a9?rule=$_2.AUTO",
+    "description": "Zum Verkauf steht meine Moto Guzzi V7 II Stone aus zweiter Hand. Das Motorrad wurde erstmals im... Zum Verkauf steht meine Moto Guzzi V7 II Stone aus zweiter Hand. Das Motorrad wurde erstmals im Februar 2015 zugelassen und hat aktuell einen Kilometerstand von 13.331 km. Daten * Moto Guzzi V7 II Stone * Erstzulassung: 02/2015 * Kilometerstand: 13.331 km * 2.Besitzer * TÜV bis 06/2027 Wartung / Historie Das Öl wurde jedes Jahr gewechselt. Vor etwa zwei Jahren wurden folgende Arbeiten durchgeführt: - Tank fachgerecht neu versiegelt - Kraftstoffpumpe erneuert Für beide Arbeiten liegen entsprechende Werkstattbelege vor. Zusätzlich wurde der ursprünglich verbaute Tacho ersetzt. Das Motorrad wurde seinerzeit mit einem Tacho ausgeliefert, der die Laufleistung in Meilen erfasste. Der Tacho wurde nachdem ich das 1 Monat später nach Kauf festgestellt wurde in einer Fachwerkstatt gegen einen Kilometer-Tacho getauscht. Auch hierfür liegt ein Nachweis vor, dies wurde von Moto Guzzi auf Kulanz beim Händler erledigt. Zum aktuellen Kilometerstand kommen daher noch knapp 3000 KM vom vorherigen Tacho, nachweisbar durch Werkstattbeleg. Bekannter Mangel: Aktuell besteht ein bekannter technischer Mangel: Die Getriebeölpumpe sollte erneuert werden. Das Motorrad fährt trotz dieses Mangels, wird jedoch von mir aufgrund des Mangels nicht mehr bewegt. Nach Aussage der Werkstatt besteht jedoch mittelfristig Handlungsbedarf. Das Ersatzteil kostet nur knapp 40 Euro, muss jedoch eingebaut werden, Der Mange",
+    "date_found": "2026-07-17T11:13:42+00:00",
+    "last_seen": "2026-07-17T11:13:42+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2)."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3459972757",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/guzzi-v7-racer-abs/3459972757-305-5097",
@@ -14,7 +41,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4afb24a7-4b35-4cc9-9007-5291a394e704?rule=$_2.AUTO",
     "description": "Gude überlege meine guzzi zu verkaufen .\nEs Gibt noch eine Zweisitzer bank.\nEs gibt 4 verschiedene... Gude überlege meine guzzi zu verkaufen . Es Gibt noch eine Zweisitzer bank. Es gibt 4 verschiedene auspuff Varianten, original / Arrow ( aktuell montiert) / mistral ohne kat besteht aber die AU leider rechts verkratzt müßte lackiert werden / original verpackt eine Mass Anlage mit ABE also kat und db . Auf wünsch kann jede beliebige auspuff Anlage montiert werden für die Mass Anlage werden aber 1000€ zusätzlich fällig. Händyhalter, griffheizung sind auch montiert. Ich hätte noch einen sportluftfilter original verpackt und die seltenen ansaugtrichter .Service wurde auch regelmäßig gemacht. Auf Wunsch gibt's neuen TÜV. Probefahrt jederzeit möglich und kann angemeldet übergeben werden bei Kaufvertrag Unterzeichnung. Bei Fragen fragen",
     "date_found": "2026-07-15T21:35:24+00:00",
-    "last_seen": "2026-07-16T21:49:21+00:00",
+    "last_seen": "2026-07-17T11:13:42+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 0.58,
@@ -179,7 +206,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac7aabb4-2625-4e7f-aaf3-9e2df478b3b3?rule=$_2.AUTO",
     "description": "Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage,... Top gepflegt, hat noch nie einen Tropfen Wasser gesehen, alle Inspektionen gemacht, Garage, umstaendehalber wegen Krankheit abzugeben Probefahrt unter Vorlage FS selbstverständlich möglich , TÜV neu bei Verkauf. Wenn gewünscht",
     "date_found": "2026-07-13T12:34:21+00:00",
-    "last_seen": "2026-07-16T21:49:21+00:00",
+    "last_seen": "2026-07-17T11:13:42+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
