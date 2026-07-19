@@ -1,5 +1,32 @@
 [
   {
+    "id": "kleinanzeigen:3462551627",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-stornello-/3462551627-305-19311",
+    "title": "Moto Guzzi V7 II \"Stornello\"",
+    "price_eur": 6000,
+    "price_raw": "6.000 €",
+    "mileage_km": 28500,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": 48,
+    "location": "01768 Glashütte",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0aa923b3-c988-4e3c-a67b-11528cc0a1ef?rule=$_2.AUTO",
+    "description": "Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich... Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich schweren Herzens von meiner Guzzi trennen. Es ist ein auf 1000 Stück limitiertes Sondermodell \"Stornello\" (262 von 1000) mit Alu-Kotflügeln und einer hochgelegten 2 in 1 Arrows-Edelstahl-Auspuffanlage. Ich habe das Motorrad beim Kauf mit einem Lederkoffer und Bitubo-Federbeinen ausrüsten lassen. Die originalen, unbenutzten Federbeine gibt es mit dazu. Sehr klassisch hat die Maschine Edelstahl-Speichenräder, die große Scheibenbremse verzögert sehr sicher. Es ist die letzte rein luftgekühlte Motorversion und daher einfach zu warten. Ich habe ein Ölthermometer nachgerüstet, aber Probleme gab es auch an heißen Tagen nie. Das Motorrad stand immer in der Garage, hauptsächlich bin ich damit im Sommer (Saisonkennzeichen) die 45 km auf Arbeit gefahren. Die Maschine hat mich nie im Stich gelassen und mußte auch keinen Unfall erleiden. Bei moderater Fahrweise liegt der Verbrauch bei 4,5l/100km, der Ölverbrauch ist nicht meßbar. Durch die Leistungsbeschränkung kann das Motorrad mit der Führerscheinklasse A2 gefahren werden. Der TÜV wird selbstverständlich vor dem Kauf erneuert. Eine Überführung ist nicht möglich, das Motorrad muß abgeholt werden.",
+    "date_found": "2026-07-19T11:03:40+00:00",
+    "last_seen": "2026-07-19T11:03:40+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2016 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2)."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3460952043",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-stone-13331km-baujahr-2015-tuev-bis-06-2027/3460952043-305-9281",
@@ -14,7 +41,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/64/647fabf6-a786-402e-978e-18cb35d0f1a9?rule=$_2.AUTO",
     "description": "Zum Verkauf steht meine Moto Guzzi V7 II Stone aus zweiter Hand. Das Motorrad wurde erstmals im... Zum Verkauf steht meine Moto Guzzi V7 II Stone aus zweiter Hand. Das Motorrad wurde erstmals im Februar 2015 zugelassen und hat aktuell einen Kilometerstand von 13.331 km. Daten * Moto Guzzi V7 II Stone * Erstzulassung: 02/2015 * Kilometerstand: 13.331 km * 2.Besitzer * TÜV bis 06/2027 Wartung / Historie Das Öl wurde jedes Jahr gewechselt. Vor etwa zwei Jahren wurden folgende Arbeiten durchgeführt: - Tank fachgerecht neu versiegelt - Kraftstoffpumpe erneuert Für beide Arbeiten liegen entsprechende Werkstattbelege vor. Zusätzlich wurde der ursprünglich verbaute Tacho ersetzt. Das Motorrad wurde seinerzeit mit einem Tacho ausgeliefert, der die Laufleistung in Meilen erfasste. Der Tacho wurde nachdem ich das 1 Monat später nach Kauf festgestellt wurde in einer Fachwerkstatt gegen einen Kilometer-Tacho getauscht. Auch hierfür liegt ein Nachweis vor, dies wurde von Moto Guzzi auf Kulanz beim Händler erledigt. Zum aktuellen Kilometerstand kommen daher noch knapp 3000 KM vom vorherigen Tacho, nachweisbar durch Werkstattbeleg. Bekannter Mangel: Aktuell besteht ein bekannter technischer Mangel: Die Getriebeölpumpe sollte erneuert werden. Das Motorrad fährt trotz dieses Mangels, wird jedoch von mir aufgrund des Mangels nicht mehr bewegt. Nach Aussage der Werkstatt besteht jedoch mittelfristig Handlungsbedarf. Das Ersatzteil kostet nur knapp 40 Euro, muss jedoch eingebaut werden, Der Mange",
     "date_found": "2026-07-17T11:13:42+00:00",
-    "last_seen": "2026-07-18T20:33:36+00:00",
+    "last_seen": "2026-07-19T11:03:40+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
@@ -85,8 +112,8 @@
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/motoguzzi-v7-stone-ii-2015-10-465-km/3436212636-305-6528",
     "title": "Motoguzzi V7 Stone II (2015) 10.465 km",
-    "price_eur": 4999,
-    "price_raw": "4.999 € VB",
+    "price_eur": 4599,
+    "price_raw": "4.599 € VB",
     "mileage_km": 10465,
     "first_registration": "2015",
     "year": 2015,
@@ -95,7 +122,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b4d667a-ad87-4c05-a249-f6979aab9a9b?rule=$_2.AUTO",
     "description": "Ich biete hier meine gepflegte Moto Guzzi V7 II Stone zum Verkauf an. Dieses Motorrad ist ein... Ich biete hier meine gepflegte Moto Guzzi V7 II Stone zum Verkauf an. Dieses Motorrad ist ein echter Hingucker mit seinem klassischen Design und der mattschwarzen Lackierung. * Robuster 750ccm V2-Motor * regelmäßige Inspektionen und Inspektion frisch durchgeführt * überwintert in Garage * Bequemer Sitz für entspannte Fahrten * Chrom-Auspuffanlage für den klassischen Look - Hitzeisolierband kann abgenommen werden. * Scheibenbremsen vorne und hinten für Sicherheit * Markante Speichenräder in Schwarz * ABS Die Moto Guzzi fährt sich wunderbar und ist perfekt für Liebhaber des italienischen Motorradbaus. Sie hat normale Gebrauchsspuren, ist aber technisch einwandfrei und wurde stets gut gewartet. Schreib mir einfach, wenn du Fragen hast.",
     "date_found": "2026-07-15T20:49:32+00:00",
-    "last_seen": "2026-07-15T20:49:32+00:00",
+    "last_seen": "2026-07-19T11:03:40+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
