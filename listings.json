@@ -1,5 +1,33 @@
 [
   {
+    "id": "kleinanzeigen:3465768494",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v-7-ii-special-abs/3465768494-305-6934",
+    "title": "Moto Guzzi V 7 II Special ABS",
+    "price_eur": 4690,
+    "price_raw": "4.690 €",
+    "mileage_km": 2637,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": 48,
+    "location": "96253 Untersiemau",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0fe2ca48-5653-48fa-961d-e474aa400c25?rule=$_2.AUTO",
+    "description": "Ausstattung:- Katalysator\n- Scheibe\n- Koffer\n- Elektrostarter\n\nSicherheit:- ABS\n\n\nDie Moto Guzzi... Ausstattung:- Katalysator - Scheibe - Koffer - Elektrostarter Sicherheit:- ABS Die Moto Guzzi ist in einen sehr gepflegten Zustand. Um - und Unfallfrei. Es sind kleine Kratzer am Fahrzeug zu sehen. Garagenfahrzeug! An der V 7 wurden regelmäßig Wartungen durchgeführt (Rechnungen liegen vor) Der letzte Service war 2025 in unserer Fachwerkstatt durchgeführt. Außerdem hat unsere Werkstatt die Moto Guzzi gründlich durchgecheckt, dabei wurden keine Mängel festgestellt -> Darauf gewähren wir 1 Jahr Gewährleistung! Eine Probefahrt ist nach Terminvereinbarung und ausschließlich schönem Wetter möglich. Versand nach Absprache. Bei weiteren Fragen, Bildern oder einen Angebot können Sie uns gerne kontaktieren. www.dippold-racing.de - Ihr Vertragshändler seit 1990 von Ducati, MV Agusta,Moto Guzzi,Aprilia,Vespa,Indian Motorcycle und Piaggio. Motorrad, Naked Bike Gebrauchtfahrzeug Erstzulassung: 6/2015 Kraftstoffart: Benzin Anzahl der Fahrzeughalter: 1 HU: 9/2027 Farbe (Hersteller): -- Farbe: Schwarz Antriebsart: Kardan Ausstattung ABS, Elektrostarter, Katalysator, Koffer, Scheibe Inserat bereitgestellt von",
+    "date_found": "2026-07-22T21:51:39+00:00",
+    "last_seen": "2026-07-22T21:51:39+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2).",
+        "ABS / traction control fitted (standard from the V7 II)."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3463679296",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-racer/3463679296-305-9509",
@@ -41,7 +69,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0aa923b3-c988-4e3c-a67b-11528cc0a1ef?rule=$_2.AUTO",
     "description": "Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich... Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich schweren Herzens von meiner Guzzi trennen. Es ist ein auf 1000 Stück limitiertes Sondermodell \"Stornello\" (262 von 1000) mit Alu-Kotflügeln und einer hochgelegten 2 in 1 Arrows-Edelstahl-Auspuffanlage. Ich habe das Motorrad beim Kauf mit einem Lederkoffer und Bitubo-Federbeinen ausrüsten lassen. Die originalen, unbenutzten Federbeine gibt es mit dazu. Sehr klassisch hat die Maschine Edelstahl-Speichenräder, die große Scheibenbremse verzögert sehr sicher. Es ist die letzte rein luftgekühlte Motorversion und daher einfach zu warten. Ich habe ein Ölthermometer nachgerüstet, aber Probleme gab es auch an heißen Tagen nie. Das Motorrad stand immer in der Garage, hauptsächlich bin ich damit im Sommer (Saisonkennzeichen) die 45 km auf Arbeit gefahren. Die Maschine hat mich nie im Stich gelassen und mußte auch keinen Unfall erleiden. Bei moderater Fahrweise liegt der Verbrauch bei 4,5l/100km, der Ölverbrauch ist nicht meßbar. Durch die Leistungsbeschränkung kann das Motorrad mit der Führerscheinklasse A2 gefahren werden. Der TÜV wird selbstverständlich vor dem Kauf erneuert. Eine Überführung ist nicht möglich, das Motorrad muß abgeholt werden.",
     "date_found": "2026-07-19T11:03:40+00:00",
-    "last_seen": "2026-07-22T12:34:21+00:00",
+    "last_seen": "2026-07-22T21:51:39+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
