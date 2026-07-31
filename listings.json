@@ -1,5 +1,58 @@
 [
   {
+    "id": "kleinanzeigen:3472734998",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-2015-special-defekt-bastler-brand-loeschschaden/3472734998-305-23788",
+    "title": "Moto Guzzi V7 II 2015 special DEFEKT BASTLER BRAND-/LÖSCHSCHADEN",
+    "price_eur": 1000,
+    "price_raw": "1.000 € VB",
+    "mileage_km": 22000,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": 48,
+    "location": "01097 Äußere Neustadt",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/88/88187e39-a439-4d29-9b97-7b72d2193f2d?rule=$_2.AUTO",
+    "description": "ERST LESEN:\nMoto Guzzi V7 II 2015 special DEFEKT BASTLER BRAND-/LÖSCHSCHADEN für Verwertung... ERST LESEN: Moto Guzzi V7 II 2015 special DEFEKT BASTLER BRAND-/LÖSCHSCHADEN für Verwertung oder Neuaufbau. Schadensbild: Anschmelzungen an Drosselklappengehäusen und Limakabel. Sonst keine Brandschäden. ABC-Pulverschaden durch Vordringen in Drosselklappengehäuse und Ansaugkanäle der beiden Zylinder. Motor wurde danach nicht bewegt und ist damit durch Reinigung rettbar. Löschpulverstaubbelag auf diversen zentralen Bauteilen. Fahrzeug steht trocken. Verkauf gegen Gebot an >>>Selbstabholer gegen BAR<<<. Nicht fahrbereit. Weitestgehend montiert/komplett und mit Originalsitzbank. Bis auf beschriebenen Schaden Unfallfrei. Anstatt Mistralauspuffen werden neuwertige originale Auspuffe mitgegeben. Ausstattung: Griffheizung, Hepco und Becker Hauptständer und Motorschutzbügel, Lucas-Style Rücklicht, Hondastyle-Schnapsglasblinger, IKON-Federbeine, Speichenräder, Tank und folierte Seitendeckel top, Lenkerendspiegel. SIEHE BILDER! Hinweis: Vergleichsbild mit Helm/Landschaft zeigt Zustand vor Schadensfall! Erwarteter Fahrzeugrestwerterlös 1000-1800€. Sonstige Angebote gern. Verkauf gegen Gebot. Anfragen werden telefonisch auf deutsch beantwortet. Nummer in Mail angeben! „Bastlerfahrzeug / nicht fahrbereit unter Ausschluss jeglicher Sachmängelhaftung von Privat“",
+    "date_found": "2026-07-31T12:35:14+00:00",
+    "last_seen": "2026-07-31T12:35:14+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2)."
+      ]
+    }
+  },
+  {
+    "id": "kleinanzeigen:3472703587",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-speciale-garagenfahrzeug-grosse-inspektion/3472703587-305-1874",
+    "title": "Moto Guzzi V7 II Speciale | Garagenfahrzeug | große Inspektion",
+    "price_eur": 5490,
+    "price_raw": "5.490 € VB",
+    "mileage_km": null,
+    "first_registration": "2015",
+    "year": 2015,
+    "power_ps": null,
+    "location": "50127 Bergheim",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/71440188-6b01-4422-9347-ce81bb96b570?rule=$_2.AUTO",
+    "description": "Zum Verkauf steht meine Moto Guzzi V7 II Speciale (EZ 07/2015) mit aktuell 20.629 km.\n\nDie... Zum Verkauf steht meine Moto Guzzi V7 II Speciale (EZ 07/2015) mit aktuell 20.629 km. Die Maschine befindet sich seit 2018 in meinem Besitz und wurde ausschließlich als Schönwetterfahrzeug genutzt. Sie stand durchgehend in der Garage und befindet sich in einem sehr gepflegten technischen sowie optischen Zustand. Highlights: * große Inspektion durchgeführt * aktuelles Mapping vom Fachbetrieb * Rechnung vorhanden * Garagenfahrzeug * kein Unfall und kein Umfaller * Boardmappe, Serviceheft und alle Schlüssel vorhanden * nahezu Originalzustand * nur schwarze Spiegel * Krümmerband * angemeldet * Probefahrt möglich Der Vorderreifen wird in absehbarer Zeit fällig. Dies wurde bei der Preisgestaltung berücksichtigt. Privatverkauf ohne Garantie, Gewährleistung oder Rücknahme. Alles weitere gerne vor Ort bei der Besichtigung.",
+    "date_found": "2026-07-31T12:35:14+00:00",
+    "last_seen": "2026-07-31T12:35:14+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.9,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2015 is squarely V7 II era."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3467902269",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-racer-custom-mistral-auspuff-lsl-lenker/3467902269-305-5749",
@@ -68,7 +121,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/993ba0d7-8f11-4ef9-b621-12ebcc1a5eee?rule=$_2.AUTO",
     "description": "Sehr schöne Moto Guzzi V7 II Stone zu verkaufen, mattsilber, schwarz mit Chrom. Sieht sehr edel... Sehr schöne Moto Guzzi V7 II Stone zu verkaufen, mattsilber, schwarz mit Chrom. Sieht sehr edel aus. scheckheftgepflegt aus 2.Hand alle Papiere, Rechnungen, Unterlagen vorhanden. Ganz großer Service in 11/24 bei 11200km für 1200.- € original Moto Guzzi Koffersatz, kleine Scheibe, viel Chrom neue Batterie neue Reifen vorne und hinten Topzustand ohne Kratzer läuft wunderbar ist angemeldet, kann probegefahren werden. TÜV neu kein Problem. Evtl. Enduro Inzahlungnahme einfach anbieten. Suzuki VanVan gesucht.",
     "date_found": "2026-07-24T21:48:22+00:00",
-    "last_seen": "2026-07-30T21:52:52+00:00",
+    "last_seen": "2026-07-31T12:35:14+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 0.8,
@@ -204,7 +257,7 @@
     "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0aa923b3-c988-4e3c-a67b-11528cc0a1ef?rule=$_2.AUTO",
     "description": "Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich... Da in meine Garage ein Oldtimer-Motorrad eingezogen ist und ich etwas Platz brauche, muß ich mich schweren Herzens von meiner Guzzi trennen. Es ist ein auf 1000 Stück limitiertes Sondermodell \"Stornello\" (262 von 1000) mit Alu-Kotflügeln und einer hochgelegten 2 in 1 Arrows-Edelstahl-Auspuffanlage. Ich habe das Motorrad beim Kauf mit einem Lederkoffer und Bitubo-Federbeinen ausrüsten lassen. Die originalen, unbenutzten Federbeine gibt es mit dazu. Sehr klassisch hat die Maschine Edelstahl-Speichenräder, die große Scheibenbremse verzögert sehr sicher. Es ist die letzte rein luftgekühlte Motorversion und daher einfach zu warten. Ich habe ein Ölthermometer nachgerüstet, aber Probleme gab es auch an heißen Tagen nie. Das Motorrad stand immer in der Garage, hauptsächlich bin ich damit im Sommer (Saisonkennzeichen) die 45 km auf Arbeit gefahren. Die Maschine hat mich nie im Stich gelassen und mußte auch keinen Unfall erleiden. Bei moderater Fahrweise liegt der Verbrauch bei 4,5l/100km, der Ölverbrauch ist nicht meßbar. Durch die Leistungsbeschränkung kann das Motorrad mit der Führerscheinklasse A2 gefahren werden. Der TÜV wird selbstverständlich vor dem Kauf erneuert. Eine Überführung ist nicht möglich, das Motorrad muß abgeholt werden.",
     "date_found": "2026-07-19T11:03:40+00:00",
-    "last_seen": "2026-07-30T21:52:52+00:00",
+    "last_seen": "2026-07-31T12:35:14+00:00",
     "classification": {
       "is_v7ii": true,
       "confidence": 1.0,
