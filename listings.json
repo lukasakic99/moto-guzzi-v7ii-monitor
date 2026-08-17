@@ -1,5 +1,33 @@
 [
   {
+    "id": "kleinanzeigen:3487232133",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-due-scheckheft-unfallfrei/3487232133-305-7219",
+    "title": "Moto Guzzi V7 II (due) | Scheckheft | Unfallfrei",
+    "price_eur": 3950,
+    "price_raw": "3.950 € VB",
+    "mileage_km": 29500,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": 48,
+    "location": "92637 Weiden (Oberpfalz)",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/468cd0b7-daa6-4a5f-9932-200c6b3d8d2f?rule=$_2.AUTO",
+    "description": "Hallo Zusammen,\n\nIch Verkaufe meine geliebte Moto Guzzi V7 II. Ich bin der zweite Besitzer. Das... Hallo Zusammen, Ich Verkaufe meine geliebte Moto Guzzi V7 II. Ich bin der zweite Besitzer. Das Motorrad ist Um- und Unfallfrei und wurde stets Scheckheft-gepflegt bei Moto Guzzi Werkstätten. Der Kilometerstand kann sich noch ändern, da das Motorrad bewegt wird. Die V7 hat einige Original Moto Guzzi Anbauteile verbaut wie das kleine Windschild aus der Racer-Serie vorne, die lackierte Seitenverkleidung und die Abdeckung aus Aluminium. Ebenfalls wurde eine bequemere Sitzbank verbaut. Einziger kleiner Mangel ist ein Kratzer auf dem Plexiglas des Tachometers, welcher die Ablesbarkeit allerdings nicht beeinträchtigt. Die Guzzi verfügt als erste der V7 Reihe über ABS und Traktionskotrolle. Letzter Service ist frisch im Juni gemacht worden. Also einfach Aufsteigen und fahren, auch mit dem A2 Führerschein! TÜV bis 09/26 kann auf Wunsch neu gemacht werden. Dies ist ein Privatverkauf. Umtausch oder Rückgabe sind ausgeschlossen. Der Verkauf erfolgt unter Ausschluss jeglicher Sachmängelhaftung.",
+    "date_found": "2026-08-17T18:43:46+00:00",
+    "last_seen": "2026-08-17T18:43:46+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 1.0,
+      "category": "confirmed",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First registration 2016 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2).",
+        "ABS / traction control fitted (standard from the V7 II)."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3485112562",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v-7-ii-stone-unfallfrei-nur-8-224-km/3485112562-305-5584",
