@@ -1,5 +1,58 @@
 [
   {
+    "id": "kleinanzeigen:3490252383",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-racer-top-zustand/3490252383-305-30022",
+    "title": "Moto Guzzi V7 Racer TOP ZUSTAND",
+    "price_eur": 5250,
+    "price_raw": "5.250 € VB",
+    "mileage_km": 15522,
+    "first_registration": "2016",
+    "year": 2016,
+    "power_ps": 48,
+    "location": "27798 Wüsting/​Grummersort",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/70/70afb22b-4736-47bc-b3f8-a6b2fee58671?rule=$_2.AUTO",
+    "description": "Wir bieten hier eine Moto Guzzi V7 Racer\n\nTop gepflegte V7 mit Zubehör, siehe Bilder.\n\nWir sind... Wir bieten hier eine Moto Guzzi V7 Racer Top gepflegte V7 mit Zubehör, siehe Bilder. Wir sind telefonisch zu erreichen Dienstags bis Freitags von 11 - 18 Uhr oder per Mail. Fahrzeug wird im Auftrag aus Nachlass vermittelt !",
+    "date_found": "2026-08-21T06:58:59+00:00",
+    "last_seen": "2026-08-21T06:58:59+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.5,
+      "category": "uncertain",
+      "reasons": [
+        "No explicit 'II' — judging by year, power and equipment.",
+        "First registration 2016 is squarely V7 II era.",
+        "48 PS matches the V7 II (48 PS, or 34 PS A2)."
+      ]
+    }
+  },
+  {
+    "id": "kleinanzeigen:3490159066",
+    "source": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-bj-2016/3490159066-305-4283",
+    "title": "Moto Guzzi V7 II BJ 2016",
+    "price_eur": 6000,
+    "price_raw": "6.000 €",
+    "mileage_km": 30000,
+    "first_registration": "",
+    "year": null,
+    "power_ps": null,
+    "location": "63452 Hanau",
+    "image_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f09b3c0-1a6b-4451-aebe-7e4b2c0ac963?rule=$_2.AUTO",
+    "description": "Kellermann Blinker. Vorne mit Positionsring in weiß (Originale noch vorhanden).\nHepco und Becker... Kellermann Blinker. Vorne mit Positionsring in weiß (Originale noch vorhanden). Hepco und Becker Hartschalenkoffer links und rechts. Seitenabdeckung Ansaugstutzen aus Aluminium. Chrom Gepäckträger.",
+    "date_found": "2026-08-21T06:58:59+00:00",
+    "last_seen": "2026-08-21T06:58:59+00:00",
+    "classification": {
+      "is_v7ii": true,
+      "confidence": 0.55,
+      "category": "likely",
+      "reasons": [
+        "Title/description explicitly says 'V7 II'.",
+        "First-registration year unknown."
+      ]
+    }
+  },
+  {
     "id": "kleinanzeigen:3487232133",
     "source": "kleinanzeigen",
     "url": "https://www.kleinanzeigen.de/s-anzeige/moto-guzzi-v7-ii-due-scheckheft-unfallfrei/3487232133-305-7219",
